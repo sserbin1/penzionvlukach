@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 40">
+  <rect x="0" y="4" width="32" height="32" rx="6" fill="#2D6A4F"/>
+  <text x="16" y="27" font-family="'DM Sans',Arial,sans-serif" font-size="18" font-weight="700" fill="#fff" text-anchor="middle">V</text>
+  <text x="42" y="28" font-family="'DM Sans',Arial,sans-serif" font-size="16" font-weight="700" fill="#1B4332" letter-spacing="-0.3">Penzion</text>
+  <text x="120" y="28" font-family="'DM Sans',Arial,sans-serif" font-size="16" font-weight="400" fill="#2D6A4F" letter-spacing="-0.3">V Lukách</text>
+</svg>
