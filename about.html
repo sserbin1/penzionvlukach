@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O nás - Akustické Budky Silentbox</title>
+    <meta name="description" content="Zjistěte více o Silentbox – evropské společnosti, která vytváří akustické kabiny pro ticho a produktivitu v kancelářích.">
+    <meta name="keywords" content="Silentbox, o nás, akustické kabiny, kancelářský komfort, evropská výroba">
+    <meta name="author" content="Silentbox">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="O nás - Akustické Budky Silentbox">
+    <meta property="og:description" content="Silentbox je evropský výrobce akustických kabin s důrazem na kvalitu, ekologii a moderní design.">
+    <meta property="og:image" content="https://static.tildacdn.one/tild3736-6461-4933-a466-353436306130/Silentbox.png">
+    <meta property="og:url" content="https://penzionvlukach.cz/about">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="O nás - Akustické Budky Silentbox">
+    <meta name="twitter:description" content="Silentbox je evropský výrobce akustických kabin s důrazem na kvalitu, ekologii a moderní design.">
+    <meta name="twitter:image" content="https://static.tildacdn.one/tild3736-6461-4933-a466-353436306130/Silentbox.png">
+    <link rel="canonical" href="https://penzionvlukach.cz/about">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/" class="logo">Silentbox</a>
+            <button class="hamburger" onclick="this.classList.toggle('open');document.querySelector('.nav-links').classList.toggle('open')">
+                <span></span><span></span><span></span>
+            </button>
+            <div class="nav-links">
+                <a href="/">Domů</a>
+                <a href="/about" class="active">O nás</a>
+                <a href="/products">Produkty</a>
+                <a href="/gallery">Galerie</a>
+                <a href="/contact">Kontakt</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="page-header">
+        <h1>O nás</h1>
+        <p>Evropská společnost specializující se na výrobu akustických kabin pro moderní kanceláře.</p>
+    </div>
+
+    <main>
+        <div class="container">
+            <div class="article-section reveal">
+                <p>Silentbox je evropská společnost specializující se na výrobu akustických kabin pro moderní kanceláře. Naše mise je vytvořit prostředí, kde můžete pracovat bez rušení, soustředit se na úkoly nebo vést důvěrné schůzky.</p>
+                <p>Založeni v roce 2015, kombinujeme inovativní technologie s udržitelnými materiály a elegantním designem. Všechny naše kabiny jsou vyráběny v Evropě s důrazem na kvalitu, ekologii a certifikace CE a ISO.</p>
+                <p>Připojte se k tisícům spokojených zákazníků, kteří díky Silentbox zlepšili produktivitu a komfort svých týmů.</p>
+            </div>
+
+            <div class="cta-section reveal">
+                <h2>Zjistěte více o Silentbox</h2>
+                <p>Navštivte naše stránky a objevte, jak můžeme zlepšit váš pracovní prostor.</p>
+                <a href="https://silent-box.com/cs/" target="_blank" class="cta-btn">Navštivte Silentbox</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>O Silentbox</h3>
+                <p>Silentbox poskytuje moderní akustické kabiny pro kanceláře, které zvyšují produktivitu a komfort.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Kontakt</h3>
+                <p>Plzeňská 18, Praha 5</p>
+                <p>Email: <a href="mailto:info@silent-box.com">info@silent-box.com</a></p>
+                <p>Tel: <a href="tel:+420237762122">+420 237 762 122</a></p>
+            </div>
+            <div class="footer-section">
+                <h3>Odkazy</h3>
+                <a href="/">Domů</a>
+                <a href="/about">O nás</a>
+                <a href="/products">Produkty</a>
+                <a href="/gallery">Galerie</a>
+                <a href="/contact">Kontakt</a>
+            </div>
+            <div class="footer-section">
+                <h3>Sledujte nás</h3>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/buysilentbox">Facebook</a>
+                    <a href="https://www.instagram.com/buy.silentbox/">Instagram</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">&copy; 2025 Silentbox. Všechna práva vyhrazena.</div>
+    </footer>
+
+    <script>
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(function(e) { if (e.isIntersecting) e.target.classList.add('visible'); });
+        }, { threshold: 0.1 });
+        document.querySelectorAll('.reveal').forEach(function(el) { observer.observe(el); });
+    </script>
+</body>
+</html>

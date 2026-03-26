@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerie - Akustické Budky Silentbox</title>
+    <meta name="description" content="Prohlédněte si galerii akustických kabin Silentbox v různých kancelářských prostředích.">
+    <meta name="keywords" content="Silentbox, galerie, akustické kabiny, kancelářský design, zvuková izolace">
+    <meta name="author" content="Silentbox">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Galerie - Akustické Budky Silentbox">
+    <meta property="og:description" content="Podívejte se, jak akustické kabiny Silentbox vypadají v reálných kancelářích.">
+    <meta property="og:image" content="https://static.tildacdn.one/tild3736-6461-4933-a466-353436306130/Silentbox.png">
+    <meta property="og:url" content="https://penzionvlukach.cz/gallery">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Galerie - Akustické Budky Silentbox">
+    <meta name="twitter:description" content="Podívejte se, jak akustické kabiny Silentbox vypadají v reálných kancelářích.">
+    <meta name="twitter:image" content="https://static.tildacdn.one/tild3736-6461-4933-a466-353436306130/Silentbox.png">
+    <link rel="canonical" href="https://penzionvlukach.cz/gallery">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/" class="logo">Silentbox</a>
+            <button class="hamburger" onclick="this.classList.toggle('open');document.querySelector('.nav-links').classList.toggle('open')">
+                <span></span><span></span><span></span>
+            </button>
+            <div class="nav-links">
+                <a href="/">Domů</a>
+                <a href="/about">O nás</a>
+                <a href="/products">Produkty</a>
+                <a href="/gallery" class="active">Galerie</a>
+                <a href="/contact">Kontakt</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="page-header">
+        <h1>Galerie</h1>
+        <p>Prohlédněte si, jak akustické kabiny Silentbox vypadají v různých kancelářských prostředích.</p>
+    </div>
+
+    <main>
+        <div class="container">
+            <div class="gallery-grid">
+                <div class="gallery-item reveal">
+                    <img src="https://optim.tildacdn.one/tild3734-3133-4862-a365-353337656535/-/format/webp/photo_2023-12-12_17-.jpg.webp" alt="Silentbox office pod in modern office 1">
+                </div>
+                <div class="gallery-item reveal">
+                    <img src="https://optim.tildacdn.one/tild6133-3434-4465-a430-316137323366/-/format/webp/IMG_5821.jpg.webp" alt="Silentbox office pod in modern office 2">
+                </div>
+                <div class="gallery-item reveal">
+                    <img src="https://optim.tildacdn.one/tild3038-3134-4264-a537-336630623666/-/format/webp/122AC4AD-DF27-4712-A.jpg.webp" alt="Silentbox office pod in modern office 3">
+                </div>
+                <div class="gallery-item reveal">
+                    <img src="https://optim.tildacdn.one/tild3236-6530-4435-a262-313130623066/-/contain/622x830/center/center/-/format/webp/IMG_7417.jpg.webp" alt="Silentbox office pod in modern office 4">
+                </div>
+                <div class="gallery-item reveal">
+                    <img src="https://optim.tildacdn.one/tild6233-6265-4065-b633-363133333431/-/format/webp/IMG_5033.jpg.webp" alt="Silentbox office pod in modern office 5">
+                </div>
+                <div class="gallery-item reveal">
+                    <img src="https://optim.tildacdn.one/tild3833-3737-4164-b163-613561376430/-/contain/622x830/center/center/-/format/webp/IMG_4420.jpg.webp" alt="Silentbox office pod in modern office 6">
+                </div>
+            </div>
+
+            <div class="cta-section reveal">
+                <h2>Chcete vidět více?</h2>
+                <p>Navštivte showroom Silentbox a prohlédněte si naše kabiny naživo.</p>
+                <a href="https://silent-box.com/cs/" target="_blank" class="cta-btn">Navštivte Silentbox</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>O Silentbox</h3>
+                <p>Silentbox poskytuje moderní akustické kabiny pro kanceláře, které zvyšují produktivitu a komfort.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Kontakt</h3>
+                <p>Plzeňská 18, Praha 5</p>
+                <p>Email: <a href="mailto:info@silent-box.com">info@silent-box.com</a></p>
+                <p>Tel: <a href="tel:+420237762122">+420 237 762 122</a></p>
+            </div>
+            <div class="footer-section">
+                <h3>Odkazy</h3>
+                <a href="/">Domů</a>
+                <a href="/about">O nás</a>
+                <a href="/products">Produkty</a>
+                <a href="/gallery">Galerie</a>
+                <a href="/contact">Kontakt</a>
+            </div>
+            <div class="footer-section">
+                <h3>Sledujte nás</h3>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/buysilentbox">Facebook</a>
+                    <a href="https://www.instagram.com/buy.silentbox/">Instagram</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">&copy; 2025 Silentbox. Všechna práva vyhrazena.</div>
+    </footer>
+
+    <script>
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(function(e) { if (e.isIntersecting) e.target.classList.add('visible'); });
+        }, { threshold: 0.1 });
+        document.querySelectorAll('.reveal').forEach(function(el) { observer.observe(el); });
+    </script>
+</body>
+</html>

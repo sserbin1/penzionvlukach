@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produkty - Akustické Budky Silentbox</title>
+    <meta name="description" content="Objevte modely akustických kabin Silentbox pro 1–4 osoby s pokročilou zvukovou izolací a moderním vybavením.">
+    <meta name="keywords" content="Silentbox, akustické kabiny, kancelářské budky, modely, zvuková izolace, kancelářský design">
+    <meta name="author" content="Silentbox">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Produkty - Akustické Budky Silentbox">
+    <meta property="og:description" content="Silentbox nabízí řadu akustických kabin pro různé potřeby – od individuální práce po týmové schůzky.">
+    <meta property="og:image" content="https://static.tildacdn.one/tild3736-6461-4933-a466-353436306130/Silentbox.png">
+    <meta property="og:url" content="https://penzionvlukach.cz/products">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Produkty - Akustické Budky Silentbox">
+    <meta name="twitter:description" content="Silentbox nabízí řadu akustických kabin pro různé potřeby – od individuální práce po týmové schůzky.">
+    <meta name="twitter:image" content="https://static.tildacdn.one/tild3736-6461-4933-a466-353436306130/Silentbox.png">
+    <link rel="canonical" href="https://penzionvlukach.cz/products">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/" class="logo">Silentbox</a>
+            <button class="hamburger" onclick="this.classList.toggle('open');document.querySelector('.nav-links').classList.toggle('open')">
+                <span></span><span></span><span></span>
+            </button>
+            <div class="nav-links">
+                <a href="/">Domů</a>
+                <a href="/about">O nás</a>
+                <a href="/products" class="active">Produkty</a>
+                <a href="/gallery">Galerie</a>
+                <a href="/contact">Kontakt</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="page-header">
+        <h1>Naše produkty</h1>
+        <p>Objevte řadu akustických kabin Silentbox, navržených pro různé potřeby – od individuální práce po týmové schůzky.</p>
+    </div>
+
+    <main>
+        <div class="container">
+            <div class="product-grid">
+                <div class="product-card reveal">
+                    <img src="https://optim.tildacdn.one/tild3734-3133-4862-a365-353337656535/-/format/webp/photo_2023-12-12_17-.jpg.webp" alt="Silentbox Solo">
+                    <div class="product-card-body">
+                        <h3>Silentbox Solo</h3>
+                        <p>Ideální pro jednotlivce, perfektní pro hovory a soustředěnou práci. Zvuková izolace do 35 dB.</p>
+                    </div>
+                </div>
+                <div class="product-card reveal">
+                    <img src="https://optim.tildacdn.one/tild6133-3434-4465-a430-316137323366/-/format/webp/IMG_5821.jpg.webp" alt="Silentbox Duo">
+                    <div class="product-card-body">
+                        <h3>Silentbox Duo</h3>
+                        <p>Pro dvě osoby, vhodné pro rychlé schůzky nebo důvěrná jednání.</p>
+                    </div>
+                </div>
+                <div class="product-card reveal">
+                    <img src="https://optim.tildacdn.one/tild3038-3134-4264-a537-336630623666/-/format/webp/122AC4AD-DF27-4712-A.jpg.webp" alt="Silentbox Team">
+                    <div class="product-card-body">
+                        <h3>Silentbox Team</h3>
+                        <p>Pro týmy do 4 osob, ideální pro brainstormingy a online schůzky.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cta-section reveal">
+                <h2>Zajímá vás cenová nabídka?</h2>
+                <p>Kontaktujte nás pro konzultaci a individuální cenovou nabídku.</p>
+                <a href="/contact" class="cta-btn">Kontaktovat</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>O Silentbox</h3>
+                <p>Silentbox poskytuje moderní akustické kabiny pro kanceláře, které zvyšují produktivitu a komfort.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Kontakt</h3>
+                <p>Plzeňská 18, Praha 5</p>
+                <p>Email: <a href="mailto:info@silent-box.com">info@silent-box.com</a></p>
+                <p>Tel: <a href="tel:+420237762122">+420 237 762 122</a></p>
+            </div>
+            <div class="footer-section">
+                <h3>Odkazy</h3>
+                <a href="/">Domů</a>
+                <a href="/about">O nás</a>
+                <a href="/products">Produkty</a>
+                <a href="/gallery">Galerie</a>
+                <a href="/contact">Kontakt</a>
+            </div>
+            <div class="footer-section">
+                <h3>Sledujte nás</h3>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/buysilentbox">Facebook</a>
+                    <a href="https://www.instagram.com/buy.silentbox/">Instagram</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">&copy; 2025 Silentbox. Všechna práva vyhrazena.</div>
+    </footer>
+
+    <script>
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(function(e) { if (e.isIntersecting) e.target.classList.add('visible'); });
+        }, { threshold: 0.1 });
+        document.querySelectorAll('.reveal').forEach(function(el) { observer.observe(el); });
+    </script>
+</body>
+</html>
