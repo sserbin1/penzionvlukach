@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Certifikace akustických kabin: ISO 23351-1, CE, RoHS — co znamenají | Penzion V Lukách</title>
+    <title>Certifikace akustických kabin: ISO 23351-1, CE, RoHS — co znamenají | V Lukach</title>
     <meta name="description" content="Jaké certifikace by měla mít akustická kabina? ISO 23351-1, ISO 11957, CE, RoHS — vysvětlení standardů a proč na nich záleží při výběru.">
     <meta name="keywords" content="certifikace akustických kabin, ISO 23351-1, ISO 11957, CE certifikace kabina, akustická budka normy, zvuková izolace certifikát">
-    <meta name="author" content="Penzion V Lukách">
+    <meta name="author" content="V Lukach">
     <meta name="robots" content="index, follow">
     <meta property="og:title" content="Certifikace akustických kabin: ISO 23351-1, CE, RoHS — co znamenají">
     <meta property="og:description" content="Jaké certifikace by měla mít akustická kabina? Vysvětlení standardů.">
@@ -17,8 +17,21 @@
     <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-    <header><nav><a href="/" class="logo"><img src="/logo.svg" alt="Penzion V Lukách" style="height:32px"></a><button class="hamburger" onclick="this.classList.toggle('open');document.querySelector('.nav-links').classList.toggle('open')"><span></span><span></span><span></span></button><div class="nav-links"><a href="/">Domů</a><a href="/kabiny">Kabiny</a><a href="/gallery">Galerie</a>
-                <a href="/blog">Blog</a><a href="/kontakt">Kontakt</a></div></nav></header>
+    <header>
+        <nav>
+            <a href="/" class="logo">V Lukach</a>
+            <button class="hamburger" onclick="this.classList.toggle('open');document.querySelector('.nav-links').classList.toggle('open')">
+                <span></span><span></span><span></span>
+            </button>
+            <div class="nav-links">
+                <a href="/">Hlavni</a>
+                <a href="/kabiny">Kabiny</a>
+                <a href="/gallery">Galerie</a>
+                <a href="/redakce">Redakce</a>
+                <a href="/kontakt">Kontakt</a>
+            </div>
+        </nav>
+    </header>
     <div class="page-header">
         <h1>Certifikace akustických kabin: co znamenají a proč na nich záleží</h1>
         <p>ISO 23351-1, ISO 11957, CE, RoHS — průvodce standardy</p>
@@ -26,7 +39,7 @@
 
     <main>
         <div class="container">
-            <div class="article-section reveal"><p><em>18. března 2025</em> · <a href="/blog" style="color:#fff;opacity:0.8">← Zpět na blog</a></p></div>
+            <div class="article-section reveal"><p><em>18. března 2025</em> · <a href="/" >← Zpět na hlavni</a></p></div>
 
             <div class="article-section reveal">
                 <p>Při výběru akustické kabiny se setkáte s řadou certifikací a norem. Některé jsou klíčové pro posouzení kvality, jiné jsou spíše marketingové. V tomto článku vysvětlíme, které certifikace skutečně znamenají kvalitu a na co si dát pozor.</p>
@@ -90,35 +103,24 @@
         </div>
     </main>
 
-        <footer>
-        <div class="footer-content">
-            <div class="footer-section">
-                <h3>O nás</h3>
-                <p>Rodinný penzion v jižních Čechách a oficiální prodejce akustických kabin SilentBox. Dodávka a montáž po celé ČR.</p>
-            </div>
-            <div class="footer-section">
-                <h3>Kontakt</h3>
-                <a href="/kontakt">Napište nám</a>
-            </div>
-            <div class="footer-section">
-                <h3>Odkazy</h3>
-                <a href="/">Domů</a>
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-tagline">V Lukach — online magazin o akustice a produktivite</div>
+            <div class="footer-links">
+                <a href="/">Hlavni</a>
                 <a href="/kabiny">Kabiny</a>
                 <a href="/gallery">Galerie</a>
-                <a href="/blog">Blog</a>
+                <a href="/redakce">Redakce</a>
                 <a href="/kontakt">Kontakt</a>
-                <a href="/about">O nás</a>
             </div>
-            <div class="footer-section">
-                <h3>Sledujte nás</h3>
-                <div class="social-links">
-                    <a href="#">Facebook</a>
-                    <a href="#">Instagram</a>
-                </div>
-            </div>
+            <div class="footer-copy">&copy; 2025 V Lukach</div>
         </div>
-        <div class="footer-bottom">&copy; 2025 Penzion V Lukách</div>
     </footer>
-    <script>const observer=new IntersectionObserver(function(e){e.forEach(function(e){if(e.isIntersecting)e.target.classList.add('visible')})},{threshold:0.1});document.querySelectorAll('.reveal').forEach(function(e){observer.observe(e)});</script>
+    <script>
+        var observer = new IntersectionObserver(function(entries) {
+            entries.forEach(function(e) { if (e.isIntersecting) e.target.classList.add('visible'); });
+        }, { threshold: 0.1 });
+        document.querySelectorAll('.reveal').forEach(function(el) { observer.observe(el); });
+    </script>
 </body>
 </html>

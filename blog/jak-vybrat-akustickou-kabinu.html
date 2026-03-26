@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jak vybrat akustickou kabinu do kanceláře: kompletní průvodce | Penzion V Lukách</title>
+    <title>Jak vybrat akustickou kabinu do kanceláře: kompletní průvodce | V Lukach</title>
     <meta name="description" content="Kompletní průvodce výběrem akustické kabiny do kanceláře. Jak posoudit zvukovou izolaci, velikost, ventilaci a certifikace. Praktické rady pro nákup.">
     <meta name="keywords" content="jak vybrat akustickou kabinu, akustická budka do kanceláře, zvuková izolace výběr, kancelářská kabina průvodce, ISO 23351-1">
-    <meta name="author" content="Penzion V Lukách">
+    <meta name="author" content="V Lukach">
     <meta name="robots" content="index, follow">
     <meta property="og:title" content="Jak vybrat akustickou kabinu do kanceláře: kompletní průvodce">
     <meta property="og:description" content="Kompletní průvodce výběrem akustické kabiny. Zvuková izolace, velikost, ventilace, certifikace.">
@@ -20,16 +20,15 @@
 <body>
     <header>
         <nav>
-            <a href="/" class="logo"><img src="/logo.svg" alt="Penzion V Lukách" style="height:32px"></a>
+            <a href="/" class="logo">V Lukach</a>
             <button class="hamburger" onclick="this.classList.toggle('open');document.querySelector('.nav-links').classList.toggle('open')">
                 <span></span><span></span><span></span>
             </button>
             <div class="nav-links">
-                <a href="/">Domů</a>
-                
+                <a href="/">Hlavni</a>
                 <a href="/kabiny">Kabiny</a>
                 <a href="/gallery">Galerie</a>
-                <a href="/blog">Blog</a>
+                <a href="/redakce">Redakce</a>
                 <a href="/kontakt">Kontakt</a>
             </div>
         </nav>
@@ -43,7 +42,7 @@
     <main>
         <div class="container">
             <div class="article-section reveal">
-                <p><em>15. března 2025</em> · <a href="/blog" style="color:#fff;opacity:0.8">← Zpět na blog</a></p>
+                <p><em>15. března 2025</em> · <a href="/" >← Zpět na hlavni</a></p>
             </div>
 
             <div class="article-section reveal">
@@ -122,38 +121,21 @@
         </div>
     </main>
 
-        <footer>
-        <div class="footer-content">
-            <div class="footer-section">
-                <h3>O nás</h3>
-                <p>Rodinný penzion v jižních Čechách a oficiální prodejce akustických kabin SilentBox. Dodávka a montáž po celé ČR.</p>
-            </div>
-            <div class="footer-section">
-                <h3>Kontakt</h3>
-                <a href="/kontakt">Napište nám</a>
-            </div>
-            <div class="footer-section">
-                <h3>Odkazy</h3>
-                <a href="/">Domů</a>
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-tagline">V Lukach — online magazin o akustice a produktivite</div>
+            <div class="footer-links">
+                <a href="/">Hlavni</a>
                 <a href="/kabiny">Kabiny</a>
                 <a href="/gallery">Galerie</a>
-                <a href="/blog">Blog</a>
+                <a href="/redakce">Redakce</a>
                 <a href="/kontakt">Kontakt</a>
-                <a href="/about">O nás</a>
             </div>
-            <div class="footer-section">
-                <h3>Sledujte nás</h3>
-                <div class="social-links">
-                    <a href="#">Facebook</a>
-                    <a href="#">Instagram</a>
-                </div>
-            </div>
+            <div class="footer-copy">&copy; 2025 V Lukach</div>
         </div>
-        <div class="footer-bottom">&copy; 2025 Penzion V Lukách</div>
     </footer>
-
     <script>
-        const observer = new IntersectionObserver(function(entries) {
+        var observer = new IntersectionObserver(function(entries) {
             entries.forEach(function(e) { if (e.isIntersecting) e.target.classList.add('visible'); });
         }, { threshold: 0.1 });
         document.querySelectorAll('.reveal').forEach(function(el) { observer.observe(el); });

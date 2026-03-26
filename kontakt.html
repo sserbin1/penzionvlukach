@@ -3,14 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kontakt — Penzion V Lukách</title>
-    <meta name="description" content="Máte dotaz ohledně akustických kabin nebo chcete rezervovat pobyt? Napište nám přes kontaktní formulář a ozveme se do 24 hodin.">
-    <meta name="keywords" content="kontakt penzion V Lukách, akustické kabiny dotaz, kontaktní formulář">
-    <meta name="author" content="Penzion V Lukách">
+    <title>Kontakt | V Lukach</title>
+    <meta name="description" content="Mate dotaz ohledne akustickych kabin nebo chcete spolupracovat? Napiste nam pres kontaktni formular.">
+    <meta name="keywords" content="kontakt V Lukach, akusticke kabiny dotaz, kontaktni formular">
+    <meta name="author" content="V Lukach">
     <meta name="robots" content="index, follow">
-    <meta property="og:title" content="Kontakt — Penzion V Lukách">
-    <meta property="og:description" content="Máte dotaz ohledně akustických kabin nebo chcete rezervovat pobyt? Napište nám a ozveme se do 24 hodin.">
-    <meta property="og:image" content="https://optim.tildacdn.one/tild3734-3133-4862-a365-353337656535/-/format/webp/photo_2023-12-12_17-.jpg.webp">
+    <meta property="og:title" content="Kontakt | V Lukach">
+    <meta property="og:description" content="Mate dotaz ohledne akustickych kabin? Napiste nam.">
     <meta property="og:url" content="https://penzionvlukach.cz/kontakt">
     <meta property="og:type" content="website">
     <link rel="canonical" href="https://penzionvlukach.cz/kontakt">
@@ -20,87 +19,62 @@
 <body>
     <header>
         <nav>
-            <a href="/" class="logo"><img src="/logo.svg" alt="Penzion V Lukách" style="height:32px"></a>
+            <a href="/" class="logo">V Lukach</a>
             <button class="hamburger" onclick="this.classList.toggle('open');document.querySelector('.nav-links').classList.toggle('open')">
                 <span></span><span></span><span></span>
             </button>
             <div class="nav-links">
-                <a href="/">Domů</a>
+                <a href="/">Hlavni</a>
                 <a href="/kabiny">Kabiny</a>
                 <a href="/gallery">Galerie</a>
-                <a href="/blog">Blog</a>
+                <a href="/redakce">Redakce</a>
                 <a href="/kontakt" class="active">Kontakt</a>
             </div>
         </nav>
     </header>
 
     <div class="page-header">
-        <h1>Kontakt</h1>
-        <p>Rádi vám poradíme s výběrem akustické kabiny nebo zodpovíme vaše dotazy.</p>
+        <h1>Napiste nam</h1>
     </div>
 
     <main>
         <div class="container">
-            <div class="article-section reveal" style="max-width:640px;margin-left:auto;margin-right:auto">
-                <p>Máte dotaz ohledně akustických kabin nebo chcete rezervovat pobyt? Vyplňte formulář a ozveme se do 24 hodin.</p>
-                <form action="#" method="POST" style="margin-top:1.5rem">
-                    <div style="margin-bottom:1.25rem">
-                        <label for="name" style="display:block;font-weight:600;margin-bottom:0.4rem;font-size:0.95rem">Jméno a příjmení</label>
-                        <input type="text" id="name" name="name" required style="width:100%;padding:0.7rem 1rem;border:1px solid var(--border);border-radius:8px;font-size:1rem;font-family:inherit;background:var(--bg)">
+            <div class="contact-form">
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="name">Jmeno a prijmeni</label>
+                        <input type="text" id="name" name="name" required>
                     </div>
-                    <div style="margin-bottom:1.25rem">
-                        <label for="email" style="display:block;font-weight:600;margin-bottom:0.4rem;font-size:0.95rem">Email</label>
-                        <input type="email" id="email" name="email" required style="width:100%;padding:0.7rem 1rem;border:1px solid var(--border);border-radius:8px;font-size:1rem;font-family:inherit;background:var(--bg)">
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
                     </div>
-                    <div style="margin-bottom:1.25rem">
-                        <label for="phone" style="display:block;font-weight:600;margin-bottom:0.4rem;font-size:0.95rem">Telefon</label>
-                        <input type="tel" id="phone" name="phone" style="width:100%;padding:0.7rem 1rem;border:1px solid var(--border);border-radius:8px;font-size:1rem;font-family:inherit;background:var(--bg)">
+                    <div class="form-group">
+                        <label for="phone">Telefon</label>
+                        <input type="tel" id="phone" name="phone">
                     </div>
-                    <div style="margin-bottom:1.25rem">
-                        <label for="message" style="display:block;font-weight:600;margin-bottom:0.4rem;font-size:0.95rem">Zpráva</label>
-                        <textarea id="message" name="message" rows="5" required style="width:100%;padding:0.7rem 1rem;border:1px solid var(--border);border-radius:8px;font-size:1rem;font-family:inherit;background:var(--bg);resize:vertical"></textarea>
+                    <div class="form-group">
+                        <label for="message">Zprava</label>
+                        <textarea id="message" name="message" rows="6" required></textarea>
                     </div>
-                    <button type="submit" style="display:inline-block;background:var(--blue);color:#fff;padding:0.75rem 2rem;border:none;border-radius:8px;font-weight:600;font-size:1rem;cursor:pointer;font-family:inherit;transition:background 0.2s">Odeslat zprávu</button>
+                    <button type="submit">Odeslat zpravu</button>
                 </form>
             </div>
         </div>
     </main>
 
     <footer>
-        <div class="footer-content">
-            <div class="footer-section">
-                <h3>O nás</h3>
-                <p>Rodinný penzion v jižních Čechách a oficiální prodejce akustických kabin SilentBox. Dodávka a montáž po celé ČR.</p>
-            </div>
-            <div class="footer-section">
-                <h3>Kontakt</h3>
-                <a href="/kontakt">Napište nám</a>
-            </div>
-            <div class="footer-section">
-                <h3>Odkazy</h3>
-                <a href="/">Domů</a>
+        <div class="footer-inner">
+            <div class="footer-tagline">V Lukach — online magazin o akustice a produktivite</div>
+            <div class="footer-links">
+                <a href="/">Hlavni</a>
                 <a href="/kabiny">Kabiny</a>
                 <a href="/gallery">Galerie</a>
-                <a href="/blog">Blog</a>
+                <a href="/redakce">Redakce</a>
                 <a href="/kontakt">Kontakt</a>
-                <a href="/about">O nás</a>
             </div>
-            <div class="footer-section">
-                <h3>Sledujte nás</h3>
-                <div class="social-links">
-                    <a href="#">Facebook</a>
-                    <a href="#">Instagram</a>
-                </div>
-            </div>
+            <div class="footer-copy">&copy; 2025 V Lukach</div>
         </div>
-        <div class="footer-bottom">&copy; 2025 Penzion V Lukách</div>
     </footer>
-
-    <script>
-        const observer = new IntersectionObserver(function(entries) {
-            entries.forEach(function(e) { if (e.isIntersecting) e.target.classList.add('visible'); });
-        }, { threshold: 0.1 });
-        document.querySelectorAll('.reveal').forEach(function(el) { observer.observe(el); });
-    </script>
 </body>
 </html>
