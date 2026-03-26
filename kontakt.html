@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kontakt | V Lukach</title>
-    <meta name="description" content="Mate dotaz ohledne akustickych kabin nebo chcete spolupracovat? Napiste nam pres kontaktni formular.">
-    <meta name="keywords" content="kontakt V Lukach, akusticke kabiny dotaz, kontaktni formular">
-    <meta name="author" content="V Lukach">
+    <title>Kontakt | Penzion V Lukach</title>
+    <meta name="description" content="Mate zajem o akusticke kabiny SilentBox? Napiste nam pres kontaktni formular a my vam pripravime nabidku na miru.">
+    <meta name="keywords" content="kontakt akusticke kabiny, poptavka SilentBox, kontaktni formular">
+    <meta name="author" content="Penzion V Lukach">
     <meta name="robots" content="index, follow">
-    <meta property="og:title" content="Kontakt | V Lukach">
-    <meta property="og:description" content="Mate dotaz ohledne akustickych kabin? Napiste nam.">
+    <meta property="og:title" content="Kontakt | Penzion V Lukach">
+    <meta property="og:description" content="Mate zajem o akusticke kabiny SilentBox? Napiste nam.">
     <meta property="og:url" content="https://penzionvlukach.cz/kontakt">
     <meta property="og:type" content="website">
     <link rel="canonical" href="https://penzionvlukach.cz/kontakt">
@@ -19,15 +19,15 @@
 <body>
     <header>
         <nav>
-            <a href="/" class="logo">V Lukach</a>
-            <button class="hamburger" onclick="this.classList.toggle('open');document.querySelector('.nav-links').classList.toggle('open')">
+            <a href="/" class="logo">Penzion <span class="logo-accent">V</span> Lukach</a>
+            <button class="hamburger" aria-label="Menu" onclick="this.classList.toggle('open');document.querySelector('.nav-links').classList.toggle('open')">
                 <span></span><span></span><span></span>
             </button>
             <div class="nav-links">
-                <a href="/">Hlavni</a>
+                <a href="/">Domu</a>
                 <a href="/kabiny">Kabiny</a>
                 <a href="/gallery">Galerie</a>
-                <a href="/redakce">Redakce</a>
+                <a href="/redakce">O nas</a>
                 <a href="/kontakt" class="active">Kontakt</a>
             </div>
         </nav>
@@ -35,45 +35,59 @@
 
     <div class="page-header">
         <h1>Napiste nam</h1>
+        <p>Vyplnte formular a my se vam ozveme do 24 hodin</p>
     </div>
 
     <main>
         <div class="container">
-            <div class="contact-form">
-                <form action="#" method="POST">
-                    <div class="form-group">
-                        <label for="name">Jmeno a prijmeni</label>
-                        <input type="text" id="name" name="name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="phone">Telefon</label>
-                        <input type="tel" id="phone" name="phone">
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Zprava</label>
-                        <textarea id="message" name="message" rows="6" required></textarea>
-                    </div>
-                    <button type="submit">Odeslat zpravu</button>
-                </form>
+            <div class="contact-section">
+                <div class="contact-form">
+                    <form action="#" method="POST">
+                        <div class="form-group">
+                            <label for="name">Jmeno a prijmeni</label>
+                            <input type="text" id="name" name="name" placeholder="Vase jmeno" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="vas@email.cz" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Telefon</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+420 ...">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Zprava</label>
+                            <textarea id="message" name="message" rows="6" placeholder="Popiste, co potrebujete..." required></textarea>
+                        </div>
+                        <button type="submit">Odeslat zpravu</button>
+                    </form>
+                </div>
             </div>
         </div>
     </main>
 
     <footer>
-        <div class="footer-inner">
-            <div class="footer-tagline">V Lukach — online magazin o akustice a produktivite</div>
-            <div class="footer-links">
-                <a href="/">Hlavni</a>
+        <div class="footer__inner">
+            <div class="footer__about">
+                <a href="/" class="logo" style="color:#fff;margin-bottom:1rem;display:inline-block;">Penzion <span class="logo-accent">V</span> Lukach</a>
+                <p>Oficialni prodejce akustickych kabin SilentBox v Ceske republice. Poradime s vyberem, zajistime dodani a montaz po cele CR.</p>
+            </div>
+            <div class="footer__col">
+                <h4>Navigace</h4>
+                <a href="/">Domu</a>
                 <a href="/kabiny">Kabiny</a>
                 <a href="/gallery">Galerie</a>
-                <a href="/redakce">Redakce</a>
+                <a href="/redakce">O nas</a>
                 <a href="/kontakt">Kontakt</a>
             </div>
-            <div class="footer-copy">&copy; 2025 V Lukach</div>
+            <div class="footer__col">
+                <h4>Vice</h4>
+                <a href="/kontakt">Napiste nam</a>
+                <a href="/blog/jak-vybrat-akustickou-kabinu">Blog</a>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="footer__copyright">&copy; 2025 Penzion V Lukach &mdash; oficialni prodejce SilentBox v CR</div>
         </div>
     </footer>
 </body>

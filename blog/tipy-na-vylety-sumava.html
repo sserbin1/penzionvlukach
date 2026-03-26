@@ -20,15 +20,15 @@
 <body>
     <header>
         <nav>
-            <a href="/" class="logo">V Lukach</a>
-            <button class="hamburger" onclick="this.classList.toggle('open');document.querySelector('.nav-links').classList.toggle('open')">
+            <a href="/" class="logo">Penzion <span class="logo-accent">V</span> Lukach</a>
+            <button class="hamburger" aria-label="Menu" onclick="this.classList.toggle('open');document.querySelector('.nav-links').classList.toggle('open')">
                 <span></span><span></span><span></span>
             </button>
             <div class="nav-links">
-                <a href="/">Hlavni</a>
+                <a href="/">Domu</a>
                 <a href="/kabiny">Kabiny</a>
                 <a href="/gallery">Galerie</a>
-                <a href="/redakce">Redakce</a>
+                <a href="/redakce">O nas</a>
                 <a href="/kontakt">Kontakt</a>
             </div>
         </nav>
@@ -41,15 +41,15 @@
 
     <main>
         <div class="container">
-            <div class="article-section reveal">
-                <p><em>20. brezna 2025</em> · <a href="/">&#8592; Zpet na hlavni</a></p>
+            <div class="article-content reveal">
+                <p><em>20. brezna 2025</em> · <a href="/">← Domu</a></p>
             </div>
 
-            <div class="article-section reveal">
+            <div class="article-content reveal">
                 <p>Sumava je jednim z nejvzacnejsich prirodnich klenotü Ceske republiky. Rozlehle lesy, ledovcova jezera, rasliniste a ticha udoli — to vse ceka jen par desitek minut autem od naseho penzionu v Lukach. Za poslednich sedm let, co tu provozujeme penzion, jsme procestovali desitky tras a vybrali ty, ktere nasi hoste nejcasteji chvali. Tady je nas seznam tech nejlepsich.</p>
             </div>
 
-            <div class="article-section reveal">
+            <div class="article-content reveal">
                 <h2>1. Prales Boubin — srdce divoke Sumavy</h2>
                 <p>Boubinsky prales je jednim z nejlepe zachovanych pralesu v cele Evrope. Nachazi se na svazich hory Boubin (1 362 m n. m.) a je pristupny po znacene turisticke trase z obce Kubova Hut nebo z parkoviste u Idina Pily.</p>
                 <p>Trasa pres prales meri priblizne 4 km a prochazite mezi obrimi buky a smrky, z nichz nekteré maji vice nez 400 let. Atmosfera je naprosto unikatni — ticho, priserene svetlo pronikajici korunami a povalene kmeny pokryte mechem. Doporucujeme vyhradit si na celou vypravu minimalne 3 hodiny a vzit si pevnou obuv, protoze terén muze byt mokry a kluzky.</p>
@@ -57,7 +57,7 @@
                 <p><strong>Narocnost:</strong> Stredni — mirne stoupani, nerovny teren</p>
             </div>
 
-            <div class="article-section reveal">
+            <div class="article-content reveal">
                 <h2>2. Lipno nad Vltavou — voda, cyklostezky a stezka v korunach stromu</h2>
                 <p>Lipenska prehrada je oblibena destinace pro rodiny i sportovce. V lete tu najdete plaze, moznosti koupani, purjcovny lodicek a paddleboardu. Podelna cyklostezka vedouci kolem jezera je jednou z nejkrasnejsich v Cechach — plochý terén, kvalitni povrch a neustale vyhledy na vodu.</p>
                 <p>Hlavni atrakcí je Stezka korunami stromu — 40 metru vysoka drevena vez s bezbariérovou stoupaci drahou, ktera nabizi panoramaticky pohled na Lipno, Sumavu a pri dobrych podminkach az na Alpy. Deti si uziji tobogan vedouci dolü ze stezky.</p>
@@ -66,7 +66,7 @@
                 <p><strong>Narocnost:</strong> Nízka — vhodne pro rodiny s malymi detmi</p>
             </div>
 
-            <div class="article-section reveal">
+            <div class="article-content reveal">
                 <h2>3. Cerne jezero — nejvetsi ledovcove jezero v Cechach</h2>
                 <p>Cerne jezero lezi pod srâznou stenou Jezerni hory v nadmorske vysce 1 008 m. Je to nejvetsi a nejhlubsi prirozene jezero v Cechach (hloubka az 40 m) a jeho temne modra voda obklopena temnymi smrky dava jezeru jeho jmeno.</p>
                 <p>K jezeru vede znacena trasa z parkoviste u Zelezne Rudy (cca 2 km, mirne stoupani). Obejiti jezero po stezce neni dlouhe, ale svaleta strana je dramaticka a stoji za to si tu chvili posedět. Pro sportovnejsi turisty doporucujeme pokracovat na Jezerni stenu — stoupani je narocnejsi, ale vyhledy stoji za kazdou kapku potu.</p>
@@ -74,7 +74,7 @@
                 <p><strong>Narocnost:</strong> K jezeru nizka, na Jezerni stenu stredni az vyssi</p>
             </div>
 
-            <div class="article-section reveal">
+            <div class="article-content reveal">
                 <h2>4. Vimperk — mesto knihtisku a zamek</h2>
                 <p>Vimperk je nase nejblizsi mesto a rozhodne stoji za prochazku. Historicke centrum nabizi malebne namesti s mestanskymi domy, zamek Vimperk s expozici o historii knihtisku (Vimperk je spojen s jednim z prvnich tiskarskych lisu v Cechach) a muzeum Sumavy.</p>
                 <p>Pod zamkem se nachazi zamecka zahrada — krasne udrzovany park, kde si muzete odpocinout po prochazce mestem. V lete se tu konaji kulturni akce, trhy a festivaly. Na namesti najdete take kavárny a restaurace s ceskou kuchyni.</p>
@@ -82,7 +82,7 @@
                 <p><strong>Narocnost:</strong> Nízka — procházka po meste</p>
             </div>
 
-            <div class="article-section reveal">
+            <div class="article-content reveal">
                 <h2>5. Povydri — divoky udolí reky Vydry</h2>
                 <p>Naucna stezka Povydri vede divokym udolim reky Vydry mezi Antyglem a Cenkovskou pilou. Trasa je dlouha priblizne 7 km a prochazi skalnatym údolim, kde reka proteka pres balvany a vytvari prekyve pereje a vodopady. Je to jedna z vizualne nejatraktivnejsich tras cele Sumavy.</p>
                 <p>Cesta je znacena a udrzovana, ale nekterè usеky vedou po kamenech a mustkach, takze doporucujeme turisticke boty. Na trase jsou lavicky a odpocinková mista. Z Cenkovske pily se muzete vlаkem vratit zpet do Antyglu, coz delá z tohoto vyletu perfektni jednosmernou turu.</p>
@@ -90,7 +90,7 @@
                 <p><strong>Narocnost:</strong> Stredni — nerovny terén, kameny</p>
             </div>
 
-            <div class="article-section reveal">
+            <div class="article-content reveal">
                 <h2>6. Kvilda a Modravsko — srdce Sumavskych slatí</h2>
                 <p>Kvilda je nejvyse polozena obec v Cechach (1 065 m n. m.) a okolni krajina raselinist a slatí patri k tomu nejcennejsimu, co Sumava nabizi. Z Kvildy vychazi naucna stezka pres Jezerní slat, ktera vas provede po prkennych chidnících nad raselinisiem s jedineenymi pohledy na sumavske lesy.</p>
                 <p>Nedaleko se nachazi take pramen Vltavy — symbolické misto, kde zacina nejdelsi ceska reka. K prameni vede kratka procházka z parkoviste a je to oblibeiny cil rodin s detmi.</p>
@@ -98,7 +98,7 @@
                 <p><strong>Narocnost:</strong> Nizka — rovne prkenne chidniky</p>
             </div>
 
-            <div class="article-section reveal">
+            <div class="article-content reveal">
                 <h2>Praktické tipy pro vyletníky</h2>
                 <ul>
                     <li><strong>Pocasi:</strong> Na Sumave se pocasi meni rychle. Vzdy si vezmete nepromokavou bundu, i kdyz raní předpoved vypada slunecne.</li>
@@ -109,7 +109,7 @@
                 </ul>
             </div>
 
-            <div class="article-section reveal">
+            <div class="article-content reveal">
                 <h2>Zakladna pro vase vylety</h2>
                 <p>V Lukach je idealni vychodiskovy bod pro prozkoumani Sumavy. Lezime v centrální poloze, odkud se snadno dostanete ke vsem zminenym mistum. Po celodennim vylete se muzete tesit na teplou veceri z lokalnich surovin, posezeni na terase a klidny spanek v pohodlnem pokoji.</p>
                 <p>Nasi hoste mohou vyuzit <a href="/kabiny">nase pokoje</a> jako zakladnu pro vicedenny pobyt — nabizime take pujcovnu kol a radi vam pomuzemе naplánovat itinerár na miru. <a href="/kontakt">Napiste nam</a> a my vam poradime, ktere trasy jsou aktuálne nejkrasnejsi.</p>
@@ -124,16 +124,27 @@
     </main>
 
     <footer>
-        <div class="footer-inner">
-            <div class="footer-tagline">V Lukach — online magazin o akustice a produktivite</div>
-            <div class="footer-links">
-                <a href="/">Hlavni</a>
+        <div class="footer__inner">
+            <div class="footer__about">
+                <a href="/" class="logo" style="color:#fff;margin-bottom:1rem;display:inline-block;">Penzion <span class="logo-accent">V</span> Lukach</a>
+                <p>Oficialni prodejce akustickych kabin SilentBox v Ceske republice. Poradime s vyberem, zajistime dodani a montaz po cele CR.</p>
+            </div>
+            <div class="footer__col">
+                <h4>Navigace</h4>
+                <a href="/">Domu</a>
                 <a href="/kabiny">Kabiny</a>
                 <a href="/gallery">Galerie</a>
-                <a href="/redakce">Redakce</a>
+                <a href="/redakce">O nas</a>
                 <a href="/kontakt">Kontakt</a>
             </div>
-            <div class="footer-copy">&copy; 2025 V Lukach</div>
+            <div class="footer__col">
+                <h4>Vice</h4>
+                <a href="/kontakt">Napiste nam</a>
+                <a href="/blog/jak-vybrat-akustickou-kabinu">Blog</a>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="footer__copyright">&copy; 2025 Penzion V Lukach &mdash; oficialni prodejce SilentBox v CR</div>
         </div>
     </footer>
     <script>

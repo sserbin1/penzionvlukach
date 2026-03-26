@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redakce | V Lukach</title>
-    <meta name="description" content="V Lukach je nezavisly online magazin zamereny na akusticka reseni, produktivitu a moderni pracovni prostredi. Oficialni partner SilentBox pro Ceskou republiku.">
-    <meta name="keywords" content="V Lukach redakce, o nas, akusticky magazin, SilentBox partner">
-    <meta name="author" content="V Lukach">
+    <title>O nas | Penzion V Lukach</title>
+    <meta name="description" content="Penzion V Lukach je oficialni prodejce akustickych kabin SilentBox v Ceske republice. Zjistete vice o nasem pribehu.">
+    <meta name="keywords" content="Penzion V Lukach, o nas, SilentBox prodejce, akusticke kabiny CR">
+    <meta name="author" content="Penzion V Lukach">
     <meta name="robots" content="index, follow">
-    <meta property="og:title" content="Redakce | V Lukach">
-    <meta property="og:description" content="V Lukach je nezavisly online magazin zamereny na akusticka reseni a produktivitu.">
+    <meta property="og:title" content="O nas | Penzion V Lukach">
+    <meta property="og:description" content="Penzion V Lukach je oficialni prodejce akustickych kabin SilentBox v Ceske republice.">
     <meta property="og:url" content="https://penzionvlukach.cz/redakce">
     <meta property="og:type" content="website">
     <link rel="canonical" href="https://penzionvlukach.cz/redakce">
@@ -19,41 +19,60 @@
 <body>
     <header>
         <nav>
-            <a href="/" class="logo">V Lukach</a>
-            <button class="hamburger" onclick="this.classList.toggle('open');document.querySelector('.nav-links').classList.toggle('open')">
+            <a href="/" class="logo">Penzion <span class="logo-accent">V</span> Lukach</a>
+            <button class="hamburger" aria-label="Menu" onclick="this.classList.toggle('open');document.querySelector('.nav-links').classList.toggle('open')">
                 <span></span><span></span><span></span>
             </button>
             <div class="nav-links">
-                <a href="/">Hlavni</a>
+                <a href="/">Domu</a>
                 <a href="/kabiny">Kabiny</a>
                 <a href="/gallery">Galerie</a>
-                <a href="/redakce" class="active">Redakce</a>
+                <a href="/redakce" class="active">O nas</a>
                 <a href="/kontakt">Kontakt</a>
             </div>
         </nav>
     </header>
 
     <div class="page-header">
-        <h1>O redakci</h1>
+        <h1>O nas</h1>
+        <p>Rodinny penzion, ktery se stal oficialnim prodejcem SilentBox</p>
     </div>
 
-    <div class="editorial">
-        <p>V Lukach je nezavisly online magazin zamereny na akusticka reseni, produktivitu a moderni pracovni prostredi. Vznikli jsme jako projekt rodinneho penzionu v jiznich Cechach, ktery se pri budovani konferencniho zazemi ponoril do sveta akustiky — a zjistil, ze o tom chce psat.</p>
+    <main>
+        <div class="about-section">
+            <p>Penzion V Lukach je rodinny podnik v jiznich Cechach, ktery se pri budovani konferencniho zazemi ponoril do sveta akustiky — a zjistil, ze o tom chce delat vic nez jen psat.</p>
 
-        <p>Dnes jsme oficialni partner SilentBox pro Ceskou republiku. Piseme o tom, co zname z prvni ruky: o akustickych kabinach, zvukove izolaci, ergonomii pracovnich prostor a o tom, jak drobne zmeny v kancelari mohou zásadne ovlivnit produktivitu celeho tymu. Nerecyklujeme tiskove zpravy — testujeme, porovnavame a piseme na zaklade vlastnich zkusenosti.</p>
-    </div>
+            <p>Dnes jsme oficialni prodejce akustickych kabin SilentBox pro Ceskou republiku. Zname produkty z prvni ruky, testujeme je, porovnavame a na zaklade vlastnich zkusenosti poradime nasim klientum. Piseme o akustickych kabinach, zvukove izolaci, ergonomii pracovnich prostor a o tom, jak drobne zmeny v kancelari mohou zasadne ovlivnit produktivitu celeho tymu.</p>
+
+            <h2>Co nabizime</h2>
+            <p>Kompletni servis od konzultace az po montaz. Doporucime spravny model pro vase prostory, pripravime cenovou nabidku, zajistime dodani a profesionalni instalaci kdekoliv v Ceske republice. Nase zkusenosti z vlastniho provozu nam umoznuji radit skutecne prakticky — ne jen z katalogu.</p>
+
+            <p>Mate zajem o akusticke kabiny? <a href="/kontakt">Napiste nam</a> a spolecne najdeme reseni, ktere vam bude sedet.</p>
+        </div>
+    </main>
 
     <footer>
-        <div class="footer-inner">
-            <div class="footer-tagline">V Lukach — online magazin o akustice a produktivite</div>
-            <div class="footer-links">
-                <a href="/">Hlavni</a>
+        <div class="footer__inner">
+            <div class="footer__about">
+                <a href="/" class="logo" style="color:#fff;margin-bottom:1rem;display:inline-block;">Penzion <span class="logo-accent">V</span> Lukach</a>
+                <p>Oficialni prodejce akustickych kabin SilentBox v Ceske republice. Poradime s vyberem, zajistime dodani a montaz po cele CR.</p>
+            </div>
+            <div class="footer__col">
+                <h4>Navigace</h4>
+                <a href="/">Domu</a>
                 <a href="/kabiny">Kabiny</a>
                 <a href="/gallery">Galerie</a>
-                <a href="/redakce">Redakce</a>
+                <a href="/redakce">O nas</a>
                 <a href="/kontakt">Kontakt</a>
             </div>
-            <div class="footer-copy">&copy; 2025 V Lukach</div>
+            <div class="footer__col">
+                <h4>Vice</h4>
+                <a href="/kontakt">Napiste nam</a>
+                <a href="/blog/jak-vybrat-akustickou-kabinu">Blog</a>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="footer__copyright">&copy; 2025 Penzion V Lukach &mdash; oficialni prodejce SilentBox v CR</div>
         </div>
     </footer>
 </body>
