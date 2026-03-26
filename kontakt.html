@@ -3,65 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kontakt — Penzion V Lukach</title>
-    <meta name="description" content="Kontaktujte Penzion V Lukach — napiste nam pro rezervaci ubytovani, dotazy k pokojum ci organizaci firemni akce.">
-    <meta name="keywords" content="kontakt penzion, rezervace ubytovani jizni Cechy, penzion Vimperk kontakt">
-    <meta name="author" content="Penzion V Lukach">
+    <title>Kontakt — Penzion V Lukách</title>
+    <meta name="description" content="Máte dotaz ohledně akustických kabin nebo chcete rezervovat pobyt? Napište nám přes kontaktní formulář a ozveme se do 24 hodin.">
+    <meta name="keywords" content="kontakt penzion V Lukách, akustické kabiny dotaz, kontaktní formulář">
+    <meta name="author" content="Penzion V Lukách">
     <meta name="robots" content="index, follow">
-    <meta property="og:title" content="Kontakt — Penzion V Lukach">
-    <meta property="og:description" content="Kontaktujte Penzion V Lukach — napiste nam pro rezervaci ubytovani ci dotazy.">
+    <meta property="og:title" content="Kontakt — Penzion V Lukách">
+    <meta property="og:description" content="Máte dotaz ohledně akustických kabin nebo chcete rezervovat pobyt? Napište nám a ozveme se do 24 hodin.">
     <meta property="og:image" content="https://optim.tildacdn.one/tild3734-3133-4862-a365-353337656535/-/format/webp/photo_2023-12-12_17-.jpg.webp">
-    <meta property="og:url" content="https://penzionvlukach.cz/contact">
+    <meta property="og:url" content="https://penzionvlukach.cz/kontakt">
     <meta property="og:type" content="website">
-    <link rel="canonical" href="https://penzionvlukach.cz/contact">
+    <link rel="canonical" href="https://penzionvlukach.cz/kontakt">
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <nav>
-            <a href="/" class="logo">Penzion V Lukach</a>
+            <a href="/" class="logo">Penzion V Lukách</a>
             <button class="hamburger" onclick="this.classList.toggle('open');document.querySelector('.nav-links').classList.toggle('open')">
                 <span></span><span></span><span></span>
             </button>
             <div class="nav-links">
-                <a href="/">Domu</a>
-                <a href="/about">O penzionu</a>
-                <a href="/pokoje">Pokoje</a>
+                <a href="/">Domů</a>
+                <a href="/kabiny">Kabiny</a>
                 <a href="/gallery">Galerie</a>
-                <a href="/contact" class="active">Kontakt</a>
+                <a href="/blog">Blog</a>
+                <a href="/kontakt" class="active">Kontakt</a>
             </div>
         </nav>
     </header>
 
     <div class="page-header">
         <h1>Kontakt</h1>
-        <p>Mate dotaz nebo chcete rezervovat pobyt? Napiste nam.</p>
+        <p>Rádi vám poradíme s výběrem akustické kabiny nebo zodpovíme vaše dotazy.</p>
     </div>
 
     <main>
         <div class="container">
-            <div class="contact-grid">
-                <div class="contact-card reveal">
-                    <h3>Adresa</h3>
-                    <p>Penzion V Lukach</p>
-                    <p>Luky 42</p>
-                    <p>385 01 Vimperk</p>
-                    <p style="margin-top:1rem;font-size:0.9rem;color:var(--text-light)">Jizni Cechy, Ceska republika</p>
-                </div>
-                <div class="contact-card reveal">
-                    <h3>Jak se k nam dostat</h3>
-                    <p><strong>Autem:</strong> Z Prahy cca 2,5 hodiny po D4 a E49 smerem na Vimperk. Z Vimperka pokracujte 5 km smerem na Luky.</p>
-                    <p><strong>Autobusem:</strong> Zastávka Vimperk — z Vimperka zajistíme vyzvednutí.</p>
-                </div>
-            </div>
-
-            <div class="article-section reveal" style="margin-top:2rem;max-width:640px;margin-left:auto;margin-right:auto">
-                <h2>Napiste nam</h2>
-                <p>Vyplnte formular a ozveme se vam do 24 hodin.</p>
+            <div class="article-section reveal" style="max-width:640px;margin-left:auto;margin-right:auto">
+                <p>Máte dotaz ohledně akustických kabin nebo chcete rezervovat pobyt? Vyplňte formulář a ozveme se do 24 hodin.</p>
                 <form action="#" method="POST" style="margin-top:1.5rem">
                     <div style="margin-bottom:1.25rem">
-                        <label for="name" style="display:block;font-weight:600;margin-bottom:0.4rem;font-size:0.95rem">Jmeno a prijmeni</label>
+                        <label for="name" style="display:block;font-weight:600;margin-bottom:0.4rem;font-size:0.95rem">Jméno a příjmení</label>
                         <input type="text" id="name" name="name" required style="width:100%;padding:0.7rem 1rem;border:1px solid var(--border);border-radius:8px;font-size:1rem;font-family:inherit;background:var(--bg)">
                     </div>
                     <div style="margin-bottom:1.25rem">
@@ -73,17 +57,11 @@
                         <input type="tel" id="phone" name="phone" style="width:100%;padding:0.7rem 1rem;border:1px solid var(--border);border-radius:8px;font-size:1rem;font-family:inherit;background:var(--bg)">
                     </div>
                     <div style="margin-bottom:1.25rem">
-                        <label for="message" style="display:block;font-weight:600;margin-bottom:0.4rem;font-size:0.95rem">Zprava</label>
+                        <label for="message" style="display:block;font-weight:600;margin-bottom:0.4rem;font-size:0.95rem">Zpráva</label>
                         <textarea id="message" name="message" rows="5" required style="width:100%;padding:0.7rem 1rem;border:1px solid var(--border);border-radius:8px;font-size:1rem;font-family:inherit;background:var(--bg);resize:vertical"></textarea>
                     </div>
-                    <button type="submit" style="display:inline-block;background:var(--blue);color:#fff;padding:0.75rem 2rem;border:none;border-radius:8px;font-weight:600;font-size:1rem;cursor:pointer;font-family:inherit;transition:background 0.2s">Odeslat zpravu</button>
+                    <button type="submit" style="display:inline-block;background:var(--blue);color:#fff;padding:0.75rem 2rem;border:none;border-radius:8px;font-weight:600;font-size:1rem;cursor:pointer;font-family:inherit;transition:background 0.2s">Odeslat zprávu</button>
                 </form>
-            </div>
-
-            <div class="cta-section reveal" style="margin-top:3rem">
-                <h2>Tesime se na vas</h2>
-                <p>At uz plánujete rodinnou dovolenou, romanticke vikend ci firemni akci — radi vam pomuzemе.</p>
-                <a href="/pokoje" class="cta-btn">Prohlédnout pokoje</a>
             </div>
         </div>
     </main>
@@ -91,32 +69,31 @@
     <footer>
         <div class="footer-content">
             <div class="footer-section">
-                <h3>O penzionu</h3>
-                <p>Penzion V Lukach je rodinny penzion v jiznich Cechach. Nabizime klidne ubytovani, domaci kuchyni a zazemi pro firmy i rodiny.</p>
+                <h3>O nás</h3>
+                <p>Penzion V Lukách je rodinný penzion v jižních Čechách, který objevil sílu akustických kabin a dnes pomáhá firmám najít správné řešení.</p>
             </div>
             <div class="footer-section">
                 <h3>Kontakt</h3>
-                <p>Luky 42, 385 01 Vimperk</p>
-                <a href="/contact">Kontaktni formular</a>
+                <a href="/kontakt">Napište nám</a>
             </div>
             <div class="footer-section">
                 <h3>Odkazy</h3>
-                <a href="/">Domu</a>
-                <a href="/about">O penzionu</a>
-                <a href="/pokoje">Pokoje</a>
+                <a href="/">Domů</a>
+                <a href="/kabiny">Kabiny</a>
                 <a href="/gallery">Galerie</a>
-                <a href="/contact">Kontakt</a>
                 <a href="/blog">Blog</a>
+                <a href="/kontakt">Kontakt</a>
+                <a href="/about">O nás</a>
             </div>
             <div class="footer-section">
-                <h3>Sledujte nas</h3>
+                <h3>Sledujte nás</h3>
                 <div class="social-links">
                     <a href="#">Facebook</a>
                     <a href="#">Instagram</a>
                 </div>
             </div>
         </div>
-        <div class="footer-bottom">&copy; 2025 Penzion V Lukach. Vsechna prava vyhrazena.</div>
+        <div class="footer-bottom">&copy; 2025 Penzion V Lukách</div>
     </footer>
 
     <script>

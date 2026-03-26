@@ -694,4 +694,8 @@ footer {
     .article-section { padding: 1.5rem; }
     .article-section h2 { font-size: 1.35rem; }
     .slide { flex: 0 0 80%; }
+    .article-section [style*="grid-template-columns: 1fr 1fr"] { grid-template-columns: 1fr !important; }
+    .article-section [style*="grid-template-columns:1fr 1fr"] { grid-template-columns: 1fr !important; }
+    .article-section [style*="grid-template-columns:repeat(3"] { grid-template-columns: 1fr !important; }
+    .article-section [style*="grid-template-columns: repeat(3"] { grid-template-columns: 1fr !important; }
 }
