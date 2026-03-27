@@ -174,8 +174,9 @@ footer{background:var(--dark);color:rgba(255,255,255,.55);padding:2rem 1.25rem 1
 .footer-bottom,.footer__bottom,.footer__copyright{max-width:var(--max);margin:1.25rem auto 0;padding-top:.75rem;border-top:1px solid rgba(255,255,255,.08);text-align:center;font-size:.72rem;color:rgba(255,255,255,.35)}
 
 /* ─── SCROLL REVEAL ─── */
-.reveal.hidden{opacity:0;transform:translateY(12px)}
 .reveal{transition:opacity .4s ease,transform .4s ease}
+.js-loaded .reveal{opacity:0;transform:translateY(12px)}
+.js-loaded .reveal.visible{opacity:1;transform:translateY(0)}
 
 /* ─── FOCUS ─── */
 a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{outline:2px solid var(--accent);outline-offset:2px}

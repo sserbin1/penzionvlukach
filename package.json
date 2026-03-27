@@ -1,0 +1,24 @@
+{
+  "name": "penzionvlukach",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sserbin1/penzionvlukach.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sserbin1/penzionvlukach/issues"
+  },
+  "homepage": "https://github.com/sserbin1/penzionvlukach#readme",
+  "dependencies": {
+    "playwright": "^1.58.2"
+  }
+}

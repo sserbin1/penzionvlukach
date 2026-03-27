@@ -12,7 +12,7 @@
     <meta property="og:type" content="website">
     <link rel="canonical" href="https://penzionvlukach.cz/">
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=3">
 </head>
 <body>
     <header>
@@ -108,8 +108,8 @@
     </footer>
 
     <script>
-    document.querySelectorAll('.reveal').forEach(e=>e.classList.add('hidden'));
-    const o=new IntersectionObserver(e=>{e.forEach(e=>{if(e.isIntersecting){e.target.classList.remove('hidden');o.unobserve(e.target)}})},{threshold:0.08});
+    document.body.classList.add('js-loaded');
+    const o=new IntersectionObserver(e=>{e.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');o.unobserve(e.target)}})},{threshold:0.08});
     document.querySelectorAll('.reveal').forEach(e=>o.observe(e));
     </script>
 </body>
