@@ -108,7 +108,8 @@
     </footer>
 
     <script>
-    const o=new IntersectionObserver(e=>{e.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible')})},{threshold:0.08});
+    document.querySelectorAll('.reveal').forEach(e=>e.classList.add('hidden'));
+    const o=new IntersectionObserver(e=>{e.forEach(e=>{if(e.isIntersecting){e.target.classList.remove('hidden');o.unobserve(e.target)}})},{threshold:0.08});
     document.querySelectorAll('.reveal').forEach(e=>o.observe(e));
     </script>
 </body>
