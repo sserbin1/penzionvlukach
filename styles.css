@@ -169,7 +169,10 @@ nav{max-width:var(--max);margin:0 auto;padding:.75rem 1.25rem;display:flex;justi
 .article-content p{margin-bottom:.85rem;font-size:.92rem;line-height:1.7}
 .article-content ul{margin:.4rem 0 .85rem 1.25rem}
 .article-content li{font-size:.92rem;margin-bottom:.35rem}
-.article-content a{color:var(--accent);font-weight:500}
+.article-content a{color:var(--accent);font-weight:600;text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:3px;text-decoration-color:rgba(45,106,79,.4);transition:text-decoration-color var(--tr),color var(--tr)}
+.article-content a:hover{color:var(--accent-h);text-decoration-color:var(--accent-h)}
+.product-intro a,.bento-card a[href^="http"]{color:var(--accent);font-weight:600;text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:3px;text-decoration-color:rgba(45,106,79,.4)}
+.product-intro a:hover{color:var(--accent-h);text-decoration-color:var(--accent-h)}
 
 /* ─── INLINE FORM (dark) ─── */
 .inline-form{max-width:var(--max);margin:0 auto 2rem;padding:0 1.25rem}
