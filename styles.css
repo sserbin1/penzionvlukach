@@ -80,6 +80,13 @@ nav{max-width:var(--max);margin:0 auto;padding:.75rem 1.25rem;display:flex;justi
 .trust-list{display:flex;flex-wrap:wrap;justify-content:center;gap:1rem 2rem}
 .trust-list span{font-size:.85rem;color:var(--text-s);font-weight:500}
 
+/* ─── BREADCRUMBS ─── */
+.breadcrumbs{max-width:var(--max);margin:1rem auto 0;padding:0 1.25rem}
+.breadcrumbs-inner{display:flex;align-items:center;gap:.4rem;font-size:.8rem;color:var(--text-s)}
+.breadcrumbs-inner a{color:var(--text-s);text-decoration:none}
+.breadcrumbs-inner a:hover{color:var(--accent)}
+.breadcrumbs-inner span[aria-current]{color:var(--dark);font-weight:500}
+
 /* ─── PAGE HEADER ─── */
 .page-header{max-width:var(--max);margin:1.5rem auto 1rem;padding:0 1.25rem}
 .page-header h1{font-size:clamp(1.4rem,3vw,2rem);font-weight:700;letter-spacing:-.01em}
