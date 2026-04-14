@@ -44,6 +44,7 @@ nav{max-width:var(--max);margin:0 auto;padding:.75rem 1.25rem;display:flex;justi
 /* ─── BUTTONS ─── */
 .btn,.cta-btn{display:inline-flex;align-items:center;gap:.5rem;background:var(--accent);color:#fff;padding:.7rem 1.4rem;border-radius:10px;font-weight:600;font-size:.875rem;border:none;cursor:pointer;transition:background var(--tr),transform var(--tr);text-decoration:none;font-family:var(--f)}
 .btn:hover,.cta-btn:hover{background:var(--accent-h);color:#fff;transform:translateY(-1px)}
+.product-card__btn{margin-top:1rem}
 .btn-light{background:#fff;color:var(--accent)}
 .btn-light:hover{background:rgba(255,255,255,.9);color:var(--accent-h)}
 .btn--primary{background:var(--accent);color:#fff;padding:.7rem 1.4rem;border-radius:10px;font-weight:600;font-size:.875rem;border:none;cursor:pointer;text-decoration:none;display:inline-block}
